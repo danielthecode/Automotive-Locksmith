@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import "./accordion.scss";
-import Service_Arrow from './Service_Arrow';
+import ServiceArrow from './Service_Arrow';
 
 const Accordion = (props) => {
     const [setActive, setActiveState] = useState("");
@@ -19,7 +19,7 @@ const Accordion = (props) => {
   return <div className={`accordion_section ${props.styleName}`}>
       <div className={`accordion ${setActive}`} onClick={toggleAccordion} >
           <p className="accordion_title">{props.title}</p><span/>
-          <Service_Arrow className={`${setRotate}`} width={10} fill={"black"} />
+          <ServiceArrow className={`${setRotate}`} width={10} fill={"black"} />
       </div>
 
       <div ref={content} style={{maxHeight: `${setHeight}`}} className="accordion_content">

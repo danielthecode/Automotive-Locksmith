@@ -1,27 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./services.scss";
-import image1 from "../../images/lost_keys/image1.jpg";
-import image2 from "../../images/lost_keys/image2.jpg";
+//import image1 from "../../images/lost_keys/image1.jpg";
+//import image2 from "../../images/lost_keys/image2.jpg";
 import Accordion from '../Accordion/Accordion';
 
 
 const Services = () => {
 
-  const [expandOpen1, setExpandOpen] = useState(true)
-    const  expand1 = () => {
-      setExpandOpen((p) => !p)
-
-      
-
-      if (expandOpen1 === true) {
-
-        document.getElementById('readmore').innerHTML = "Read Less"
-
-      }
-      else {
-        document.getElementById('readmore').innerHTML = "Read More"
-      }
-    }
 
   return <div className="container-service">
 
