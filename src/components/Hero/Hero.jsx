@@ -51,10 +51,10 @@ const Hero = () => {
                               <span><FaPhone size={40}/></span>
                           </div>
                           <div className="text-1">
-                              <h3>Call Us Now on</h3>
+                              Call Us Now on
                           </div>
                           <div className="text-2">
-                              <h3>07897718109</h3>
+                              07897718109
                           </div>
                           </div>
                           
@@ -66,7 +66,7 @@ const Hero = () => {
                                 <span><FaRegClock size={40}/></span>
                               </div>
                               <div className="text-1">
-                                <h3>Opening Times</h3>
+                                Opening Times
                               </div>
                               <div className="text-2">
                                 Mon - Sat 8:00 - 18:00

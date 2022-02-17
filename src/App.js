@@ -4,14 +4,14 @@ import Services from './components/Services/Services';
 
 function App() {
   return (
-    <div>
-      <div>
+    <>
+      <>
         <Hero/>
-      </div>
-      <div>
+      </>
+      <>
         <Services/>
-      </div>
-    </div>
+      </>
+    </>
   );
 }
 
