@@ -194,6 +194,7 @@
                     font-weight: 400;
                     padding: 0.5rem 1rem;
                     transition: 1s;
+                    cursor: pointer;
 
                     &:hover{
                         color: white;
@@ -211,4 +212,8 @@
 
 .coloured {
     color: #ed7d31;
+}
+
+a {
+    cursor: pointer;
 }

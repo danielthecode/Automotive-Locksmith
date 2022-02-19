@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import "./header.scss";
 import hamburger_open from "../../images/hamburger_icon.svg"
 import hamburger_close from "../../images/hamburger_close.svg"
@@ -20,37 +20,37 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false)
     const  menuToggleHandler = () => {
       setMenuOpen((p) => !p)
+    }
 
-      if (menuOpen === false) {
-
-        document.body.style.overflow = "hidden"
-
+    const close = () => {
+      if (menuOpen === true) {
+          setMenuOpen(false)
       }
       else {
-        document.body.style.overflow = "unset"
+        setMenuOpen(false)
       }
     }
   return <div className={colourChange ? 'header colourChange' : 'header'}>
     <div className='container'>
       <nav>
         <div className="logo">
-          <Link to="#">
+          <Link to="home" spy={true} smooth={true} onClick={close}>
           Automotive Locksmith
           </Link>
         </div>
 
         <ul className={menuOpen ? 'ul-items open' : 'ul-items' }>
           <li>
-            <Link to="#">Home</Link>
+            <Link activeClass="active" to="home" spy={true} smooth={true} onClick={close}>Home</Link>
           </li>
           <li>
-            <Link to="#">Services</Link>
+            <Link to="services" spy={true} smooth={true} onClick={close}>Services</Link>
           </li>
           <li>
-            <Link to="#">About</Link>
+            <Link to="about" spy={true} smooth={true} onClick={close}>About</Link>
           </li>
           <li>
-            <Link to="#">Contact Us</Link>
+            <Link to="contact" spy={true} smooth={true} onClick={close}>Contact Us</Link>
           </li>
         </ul>
 

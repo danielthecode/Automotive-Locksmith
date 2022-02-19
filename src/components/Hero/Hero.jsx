@@ -6,10 +6,10 @@ import {FaFacebook} from "react-icons/fa";
 import {FaGoogle} from "react-icons/fa";
 import {FaPhone} from "react-icons/fa";
 import {FaRegClock} from "react-icons/fa";
-import scroll from "../../images/scroll.svg"
+import scroll from "../../images/scroll.svg";
 
 const Hero = () => {
-  return <div>
+  return <div id='home'>
       <div className="socials">
 
           <div className="socials-wrapper">
