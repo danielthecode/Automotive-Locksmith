@@ -40,8 +40,8 @@ const Hero = () => {
             <div className="left">
               <div className="left-container">
                   <div className="left-text-intro">
-                      <h1 className='coloured'>Automotive Locksmith</h1>
-                      <h2>& Emergency Lockout Service</h2>
+                      <h1 className='coloured'>LOST YOUR VEHICLE KEY?</h1>
+                      <h2>DON’T Stress, Don't PANIC</h2>
                   </div>
 
                   <div className="sub-intro">

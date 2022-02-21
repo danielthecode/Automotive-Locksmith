@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import { Link } from 'react-scroll';
 import "./header.scss";
-import hamburger_open from "../../images/hamburger_icon.svg"
-import hamburger_close from "../../images/hamburger_close.svg"
+import hamburger_open from "../../images/hamburger_icon.svg";
+import hamburger_close from "../../images/hamburger_close.svg";
+import logo from "../../images/logo.svg";
 
 
 const Header = () => {
@@ -35,7 +36,10 @@ const Header = () => {
       <nav>
         <div className="logo">
           <Link to="home" spy={true} smooth={true} onClick={close}>
-          Automotive Locksmith
+                <div><img src={logo} className="logo_svg" alt="" /></div>
+          </Link>
+          <Link to="home" spy={true} smooth={true} onClick={close}>
+            <div>Automotive Locksmith</div>
           </Link>
         </div>
 
