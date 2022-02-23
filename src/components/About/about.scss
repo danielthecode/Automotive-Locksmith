@@ -1,6 +1,7 @@
 .container-about{
     position: relative;
     padding: 8rem 6rem;
+    padding-bottom: 1rem;
 
     @media only screen and (max-width: 1001px){
         padding: 8rem 2.5rem;
@@ -14,10 +15,10 @@
         position: absolute;
         background-image: url("../../images/about.svg");
         background-repeat: no-repeat;
-        width: 58vw;
+        width: 37vw;
         height: 200px;
         top: 5;
-        left:41.385%;
+        left:62.385%;
         z-index: -1;
         opacity: 0.2;
     }
@@ -33,7 +34,7 @@
         }
 
         h2 {
-            font-size: 10vw;
+            font-size: 7vw;
             font-weight: 600;
             text-transform: uppercase;
 
