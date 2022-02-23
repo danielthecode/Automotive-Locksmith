@@ -178,6 +178,23 @@
                 @media only screen and (max-width: 839px){
                     display: flex;
                 }
+
+                .nav-socials {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .icon {
+
+                        padding: 4rem 1rem;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                    
+                }
                 
             }
 
@@ -204,6 +221,14 @@
                     }
                 }
 
+            }
+
+            .nav-socials {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                display: none;
             }
             
         }

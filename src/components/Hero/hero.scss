@@ -9,6 +9,7 @@
     justify-items: center;
     position: relative;
     transition: 1s all ease;
+    overflow: hidden;
 
     @media only screen and (max-width: 455px){
         padding: 0 1rem;
@@ -247,6 +248,17 @@
                 }
 
             }
+
+            .slogan {
+                font-weight: 400;
+                            font-size: 1.4vw;
+
+                            @media only screen and (max-width: 455px){
+                                font-size: 4vw;
+                                color: white;
+                            }
+            }
+
 
 
             .left-text-descriptions {

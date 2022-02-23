@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./about.scss";
-import aboutImage from "../../images/about/About.jpg"
+import aboutImage from "../../images/about/About.jpg";
+import logo from "../..//images/logo.svg"
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const About = () => {
+
+  useEffect(() => {
+    Aos.init({duration:2000, once:true});
+  })
+
   return (
     <div id='about' className="container-about">
       <div className="about_svg"></div>
-      <div className="heading">
+      <div className="heading" data-aos="fade-up">
         <h2>About</h2>
       </div>
 
       <div className="about-wrapper">
-        <div className="left">
+        <div className="left" data-aos="fade-right">
           <div className="about-text">
-          <div className="about-text-title">Why do we exist?</div>
+          <div className="about-text-title">Why do we exist? <span><img src={logo} alt="" /></span></div>
             <p>Car Key Experts is a mobile automotive locksmith service providing solutions for all vehicle key
               requirements.
               We are committed to providing our customers with honest, reliable, and excellent service.
@@ -22,7 +30,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="right">
+        <div className="right" data-aos="fade-left">
 
           <div className="img-wrapper">
             <img src={aboutImage} alt="" />
@@ -32,7 +40,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-content">
+      <div className="about-content" data-aos="fade-up">
             <div className="text">
               <div className="about-content-title">Why Choose Car Key Experts?</div>
               <div className="about-content-desc">

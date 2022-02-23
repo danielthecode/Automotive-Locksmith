@@ -4,6 +4,7 @@ import "./header.scss";
 import hamburger_open from "../../images/hamburger_icon.svg";
 import hamburger_close from "../../images/hamburger_close.svg";
 import logo from "../../images/logo.svg";
+import { FaFacebook, FaGoogle, FaInstagram } from 'react-icons/fa';
 
 
 const Header = () => {
@@ -56,6 +57,18 @@ const Header = () => {
           <li>
             <Link to="contact" spy={true} smooth={true} onClick={close}>Contact Us</Link>
           </li>
+
+          <div className="nav-socials">
+          <div className="icon">
+             <a href="https://instagram.com/carkeysandremotesuk?utm_medium=copy_link" target="_blank" rel="noreferrer"><FaInstagram size={30}/></a>
+            </div>
+            <div className="icon">
+            <a href="https://www.facebook.com/Car-Keys-Remotes-UK-100636342171376/" target="_blank" rel="noreferrer"><FaFacebook size={30}/></a>
+            </div>
+            <div className="icon">
+            <a href="https://www.google.com/search?q=car+keys+and+remotes&oq=car+keys+and+re&aqs=chrome.0.0i355j46i175i199j69i57j0i457j0i22i30.11872j0j7&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8#lkt=LocalPoiReviews&trex=m_t:lcl_akp,rc_f:nav,rc_ludocids:7142101564104645412,rc_q:Car%2520Keys%2520%2526%2520Remotes,ru_q:Car%2520Keys%2520%2526%2520Remotes,trex_id:CcDknf" target="_blank" rel="noreferrer"><FaGoogle size={30}/></a>
+            </div>
+          </div>
         </ul>
 
         <div className="collapse">

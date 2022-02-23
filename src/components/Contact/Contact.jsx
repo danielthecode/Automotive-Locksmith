@@ -1,25 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./contact.scss";
 import email from "../../images/email.svg";
 import phone from "../../images/phone.svg";
 import {FaRegClock} from "react-icons/fa";
-import location from "../../images/locations.png"
+import location from "../../images/locations.png";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Contact = () => {
+
+    useEffect(() => {
+        Aos.init({duration:2000, once:true});
+      })
+
   return (
     <div id='contact' className="container-contact">
         <div className="contact_svg"></div>
-        <div className="heading"><h2>Contact</h2></div>
+        <div className="heading" data-aos="fade-up"><h2>Contact</h2></div>
 
         <div className="contact-wrapper">
             {/* <div className="lead">
                 Get in touch
             </div> */}
             <div className="contact-content">
-                <div className="location">
+                <div className="location" data-aos="fade-right">
                     <img src={location} alt="" />
                 </div>
-                <div className="open">
+                <div className="open" data-aos="fade-left">
                     <div className="text">
                         LOST YOUR VEHICLE KEY? DON’T PANIC and reachout to us
                     </div>

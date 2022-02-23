@@ -1,8 +1,15 @@
-import React, {useState, useRef} from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import "./accordion.scss";
 import ServiceArrow from './Service_Arrow';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Accordion = (props) => {
+
+  useEffect(() => {
+    Aos.init({duration:2000, once:true});
+  })
+
     const [setActive, setActiveState] = useState("");
     const [setHeight, setHeightState] = useState ("0px");
     const [setRotate, setRotateState] = useState("accordion_icon");
@@ -17,7 +24,7 @@ const Accordion = (props) => {
 
 
   return <div className={`accordion_section ${props.styleName}`}>
-      <div className={`accordion ${setActive}`} onClick={toggleAccordion} >
+      <div className={`accordion ${setActive}`} onClick={toggleAccordion}  data-aos="fade-left">
           <p className="accordion_title">{props.title}</p><span/>
           <ServiceArrow className={`${setRotate}`} width={10} fill={"black"} />
       </div>
