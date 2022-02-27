@@ -48,7 +48,7 @@ const Hero = () => {
             <div className="left">
               <div className="left-container">
                   <div className="left-text-intro" data-aos="fade-up">
-                      <h1 className='coloured'>LOST YOUR VEHICLE KEY?</h1>
+                      <h1 className='coloured'>lost, stolen or broken key?</h1>
                       <h2>DON’T Stress, Don't PANIC</h2>
                   </div>
 

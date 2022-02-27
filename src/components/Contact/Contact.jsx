@@ -28,18 +28,10 @@ const Contact = () => {
                 </div>
                 <div className="open" data-aos="fade-left">
                     <div className="text">
-                        LOST YOUR VEHICLE KEY? DON’T PANIC and reachout to us
+                    If you have any queries, please do not hesitate to contact us
                     </div>
                     <div className="more-content">
-                        <div className="email">
-                            <div className="mail-text">
-                            <a href="mailto:contact@carkeyexperts.co.uk" className='link'>
-                                <span className="mail-icon"><img src={email} alt="" />
-                                </span>
-                                
-                                contact@carkeyexperts.co.uk</a></div>
-                        </div>
-                        <div className="phone">
+                       <div className="phone">
                             <div className="phone-text">
                                 <a href="tel:07897718109" className='link'>
                                     <span className="phone-icon">
@@ -49,7 +41,16 @@ const Contact = () => {
                                 </a>
                             </div>
                                 
+                        </div> 
+                        <div className="email">
+                            <div className="mail-text">
+                            <a href="mailto:contact@carkeyexperts.co.uk" className='link'>
+                                <span className="mail-icon"><img src={email} alt="" />
+                                </span>
+                                
+                                contact@carkeyexperts.co.uk</a></div>
                         </div>
+                        
 
                         <div className="opening-times">
                             <div className="wrapper">

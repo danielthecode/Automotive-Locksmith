@@ -179,7 +179,8 @@
                     display: flex;
                 }
 
-                .nav-socials {
+                @media only screen and (max-width: 455px){
+                    .nav-socials {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -195,6 +196,9 @@
                     }
                     
                 }
+                }
+
+                
                 
             }
 
