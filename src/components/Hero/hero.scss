@@ -90,6 +90,11 @@
             transition: 1s all ease;
             cursor: pointer;
 
+            .link {
+                text-decoration: none;
+                color: white;
+            }
+
 
             @media only screen and (max-width: 455px) {
                 margin: 0;
@@ -191,6 +196,7 @@
                     height: 100%;
                 }
 
+                
                 .wrapper {
                     font-size: 2vw;
                     font-weight: 700;
@@ -460,8 +466,6 @@
             }
         }
     }
-
-    
-
-    
 }
+
+

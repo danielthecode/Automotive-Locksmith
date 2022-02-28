@@ -52,7 +52,7 @@ const Hero = () => {
         <div className="sub-intro" data-aos="fade-up" data-aos-delay="1000">
           <div className="sub-into-1">
             <div className="sub-container">
-              <Link to="contact" spy={true} smooth={true}>
+            <a href="tel:07897718109" className='link'>
               <div className="wrapper">
                 <span>
                   <FaPhone size={40} /></span>
@@ -63,7 +63,7 @@ const Hero = () => {
               <div className="text-2">
                 07897718109
               </div>
-              </Link>
+              </a>
             </div>
           </div>
 

@@ -1,14 +1,15 @@
 .container-contact{
     position: relative;
-    padding: 8rem 6rem;
+    padding: 0rem 6rem;
+    padding-bottom: 4rem;
     overflow: hidden;
 
     @media only screen and (max-width: 1001px){
-        padding: 8rem 2.5rem;
+        padding: 2rem 2.5rem;
     }
 
     @media only screen and (max-width: 455px){
-        padding: 4rem 1rem;
+        padding: 0rem 1rem;
     }
 
     .contact_svg {
@@ -33,12 +34,12 @@
         }
 
         h2 {
-            font-size: 7vw;
+            font-size: 5vw;
             font-weight: 600;
             text-transform: uppercase;
 
             @media only screen and (max-width: 455px){
-                font-size: 15vw;
+                font-size: 10vw;
                 
             }
         }

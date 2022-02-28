@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div className="open" data-aos="fade-left">
                     <div className="text">
-                        LOST YOUR VEHICLE KEY? DON’T PANIC and reachout to us
+                    If you have any queries, please do not hesitate to contact us
                     </div>
                     <div className="more-content">
                         <div className="email">

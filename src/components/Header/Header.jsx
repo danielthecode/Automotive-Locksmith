@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import "./header.scss";
 import hamburger_open from "../../images/hamburger_icon.svg";
 import hamburger_close from "../../images/hamburger_close.svg";
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo.png";
 import { FaFacebook, FaGoogle, FaInstagram } from 'react-icons/fa';
 
 
