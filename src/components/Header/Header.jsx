@@ -10,7 +10,7 @@ import { FaFacebook, FaGoogle, FaInstagram } from 'react-icons/fa';
 const Header = () => {
   const [colourChange, setColourChange] = useState(false);
     const changeNavbarColour = () => {
-        if(window.scrollY >=10){
+        if(window.scrollY >=700){
             setColourChange(true)
         }
         else{
@@ -40,7 +40,7 @@ const Header = () => {
                 <div><img src={logo} className="logo_svg" alt="" /></div>
           </Link>
           <Link to="home" spy={true} smooth={true} onClick={close}>
-            <div>Automotive Locksmith</div>
+            <div className="text">Automotive Locksmith</div>
           </Link>
         </div>
 

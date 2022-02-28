@@ -43,9 +43,71 @@ const Hero = () => {
 
       <div className="container-hero">
 
-      
+      <div className="content">
+        <div className="main-intro" data-aos="fade-up">
+          <h1 className='coloured'>LOST YOUR VEHICLE KEY?</h1>
+          <h2>DON’T Stress, Don't PANIC</h2>
+        </div>
 
-            <div className="left">
+        <div className="sub-intro" data-aos="fade-up" data-aos-delay="1000">
+          <div className="sub-into-1">
+            <div className="sub-container">
+              <Link to="contact" spy={true} smooth={true}>
+              <div className="wrapper">
+                <span>
+                  <FaPhone size={40} /></span>
+              </div>
+              <div className="text-1">
+                Call Us Now on
+              </div>
+              <div className="text-2">
+                07897718109
+              </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className="sub-into-2">
+            <div className="sub-container">
+              <Link to="contact" spy={true} smooth={true}>
+              <div className="wrapper">
+                <span>
+                  <FaRegClock size={40} /></span>
+              </div>
+              <div className="text-1">
+                Opening Times
+              </div>
+              <div className="text-2">
+                Mon - Sat 8:00 - 18:00
+                <br />
+                Sun - Closed
+              </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="slogan" data-aos="fade-up" data-aos-delay="1000">
+          <b>YOUR HOME FOR ALL CAR KEY SERVICES</b>
+        </div>
+
+        <div className="text-descriptions" data-aos="fade-right" data-aos-delay="1500">
+          <div className="description-wrapper">
+            <div className="description-item">
+              <h3>✔ <span className='coloured'>Fast</span> and <span className='coloured'>Reliable</span> Mobile Service
+              </h3>
+            </div>
+            <div className="description-item">
+              <h3>✔ <span className='coloured'>Experienced</span> Technicians</h3>
+            </div>
+            <div className="description-item">
+              <h3>✔ <span className='coloured'>Competitive</span> Prices</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            {/* <div className="left">
               <div className="left-container">
                   <div className="left-text-intro" data-aos="fade-up">
                       <h1 className='coloured'>LOST YOUR VEHICLE KEY?</h1>
@@ -117,7 +179,7 @@ const Hero = () => {
                 <div className="hero-image-container">
                 </div>
               
-            </div>
+            </div> */}
         </div>
   </div>;
 };
