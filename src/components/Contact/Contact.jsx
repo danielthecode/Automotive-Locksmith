@@ -3,7 +3,7 @@ import "./contact.scss";
 import email from "../../images/email.svg";
 import phone from "../../images/phone.svg";
 import {FaRegClock} from "react-icons/fa";
-import location from "../../images/locations.png";
+import location from "../../images/locations.jfif";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 

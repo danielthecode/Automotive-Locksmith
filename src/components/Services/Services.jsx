@@ -33,7 +33,7 @@ const Services = () => {
 
         <div className="wrapper">
           <Accordion title="Lost or Stolen Keys" description1=" In the unfortunate event of your vehicle key being lost or stolen, Car Key Experts can help you replace
-                the key without any damage to your vehicle"
+                the key without any damage to your vehicle. "
             description2="Our highly skilled technicians will perform an ‘All Keys Lost’ function using our specialist equipment to ensure that all registered keys are erased from the vehicle memory and no longer recognised by the vehicle’s immobiliser system. We will then cut and programme a new key for you to restore your vehicle to full functionality. All of this is done at a fraction of what you would be charged by a dealership - whilst we also come to you, much to your convenience."
             image1={image1} image2={image2} />
 
@@ -68,10 +68,14 @@ const Services = () => {
           <Accordion title="Key programminng" styleName="uncolored" description1="As every vehicle has a unique identification code 
             in its ignition barrel, vehicle key programming is 
             required to ensure communication between the 
-            key and the vehicle is corresponding. Without these 
+            key and the vehicle are corresponding. Without these 
             matching identification codes, your vehicle will not start.
             " wrapperStyle="reverse"
-            description2="Our highly skilled technicians will perform an ‘All Keys Lost’ function using our specialist equipment to ensure that all registered keys are erased from the vehicle memory and no longer recognised by the vehicle’s immobiliser system. We will then cut and programme a new key for you to restore your vehicle to full functionality. All of this is done at a fraction of what you would be charged by a dealership - whilst we also come to you, much to your convenience."
+            description2="Common reasons for vehicle key programming:"
+            description3="&bull; A new car key"
+            description4="&bull; Immobiliser/Remote fault"
+            description5="&bull; Key is lost or stolen"
+            description6="&bull; Key battery issues"
             image1={image11} image2={image12} />
           {/* <div className="wrapper-content first">
             <div className="left">

@@ -41,6 +41,18 @@ const Accordion = (props) => {
                 <p className='second'>
                   {props.description2}
                 </p>
+                <p className='second'>
+                  {props.description3}
+                </p>
+                <p className='second'>
+                  {props.description4}
+                </p>
+                <p className='second'>
+                  {props.description5}
+                </p>
+                <p className='second'>
+                  {props.description6}
+                </p>
               </div>
               
             </div>

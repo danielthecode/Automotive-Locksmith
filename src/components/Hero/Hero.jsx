@@ -46,7 +46,7 @@ const Hero = () => {
       <div className="content">
         <div className="main-intro" data-aos="fade-up">
           <h1 className='coloured'>LOST YOUR VEHICLE KEY?</h1>
-          <h2>DON’T Stress, Don't PANIC</h2>
+          <h2>DON’T Stress, We can Help</h2>
         </div>
 
         <div className="sub-intro" data-aos="fade-up" data-aos-delay="1000">

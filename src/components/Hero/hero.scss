@@ -1,5 +1,5 @@
 .container-hero {
-    height: 100vh;
+    min-height: calc(100vh + 6rem);
     width: 100%;
     transition: 1s all ease;
     overflow: hidden;
@@ -17,15 +17,21 @@
     @media only screen and (max-width: 455px){
         padding: 0 1rem;
         margin-top: 0;
-        height: 80vh;
+        min-height: 80vh;
+        background-attachment: none;
+        background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/hero_background.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .main-intro {
         text-transform: uppercase;
         text-align: center;
+        margin-top: 2rem;
 
         @media only screen and (max-width: 455px){
-            margin-top: 10px;
+            margin-top: 0;
         }
                     
         h1 {
@@ -100,6 +106,7 @@
                 margin: 0;
                 margin-right: 10px;
                 transform: scale(1);
+                min-height: 100px;
             }
 
             &:hover {
@@ -173,6 +180,7 @@
                 margin: 0;
                 transform: scale(1);
                 color: white;
+                min-height: 100px;
             }
 
             &:hover {
@@ -248,7 +256,10 @@
         align-items: center;
         margin-top: 1rem;
 
+        color: white;
+
         .description-wrapper {
+            color: white;
 
             .description-item {
                 font-size: 20px;
